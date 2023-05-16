@@ -2,7 +2,13 @@
 
 ### Instructions:
 
-The project is ready to run with no changes (after setup / `$ yarn install`). However, if you would like to you can change:
+To begin using this project, run:
+```
+$ yarn install
+```
+You can also view more detailed instructions on starting this project under [Stackup's readme](./erc-4337-examples/README.md). (Make sure to save the `config.json` file we have provided, however.)
+
+If you would like to change the config file you can change:
 1. `ecoAddress: luke-goerli.eth` the address the donations go to
 2. `offset: 0.001`: change the fixed donation amount
 3. `roundTo: 0.001`: change the rounding number
